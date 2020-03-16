@@ -114,12 +114,14 @@ public class Character {
      * Attacks an enemy
      * 
      * @param enemy The Character to attack
-     * @return true if the enemy died.
+     * @return attack value.
      */
-    public boolean attack(Character enemy) {
+    public int attack(Character enemy) {
         this.lastEnemyAttacked = enemy;
-        return enemy.takeDamage(
-                specialAbility.modifyAttackValue(RNG.getRandom(getAttackMin(), getAttackMax()), this, enemy), enemy);
+        int damage = specialAbility.modifyAttackValue(RNG.getRandom(getAttackMin(), getAttackMax()), this, enemy);
+        enemy.takeDamage(damage, enemy);
+        return damage;
+                
     }
 
     /**

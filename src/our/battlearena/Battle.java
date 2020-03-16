@@ -48,7 +48,8 @@ public class Battle {
                     target = CommandInterpreter.chooseTarget(this, activeFighter);
                 switch (action) {
                     case ACTION_ATTACK:
-                        activeFighter.attack(target);
+                        int dmg = activeFighter.attack(target);
+                        System.out.println(activeFighter.getName() + " deals " + dmg + " damage to " + target.getName());
                         break;
                     case ACTION_SPECIAL_TARGET:
                     case ACTION_SPECIAL:
