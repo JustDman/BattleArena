@@ -4,10 +4,9 @@ import our.battlearena.RNG;
 import our.battlearena.fighters.Character;
 
 public class DwarfHead extends Special {
-    private String name = "Headbutt";
 
     public DwarfHead() {
-
+        name = "Headbutt";
     }
 
     @Override

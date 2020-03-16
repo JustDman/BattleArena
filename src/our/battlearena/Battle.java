@@ -26,10 +26,11 @@ public class Battle {
     public static final int ACTION_NONE = 0;
     public static final int ACTION_ATTACK = 1;
     public static final int ACTION_SPECIAL = 2;
+    public static final int ACTION_SPECIAL_TARGET = 3;
 
     public void startBattle() {
         // do stuff
-        while (team1.isAtleastOneAlive() && team2.isAtleastOneAlive()) {
+        while (team1.isAtLeastOneAlive() && team2.isAtLeastOneAlive()) {
 
             activeTeam = getEnemyTeam();
 
@@ -42,12 +43,41 @@ public class Battle {
                 } catch (NotImplementedException e) {
                     e.printStackTrace();
                 }
+                Character target = null;
+                if (action == ACTION_ATTACK || action == ACTION_SPECIAL_TARGET)
+                    target = CommandInterpreter.chooseTarget(this, activeFighter);
+                switch (action) {
+                    case ACTION_ATTACK:
+                        activeFighter.attack(target);
+                        break;
+                    case ACTION_SPECIAL_TARGET:
+                    case ACTION_SPECIAL:
+                        activeFighter.setSpecial(!activeFighter.isSpecialActive(), target);
+                        break;
+                    case ACTION_NONE:
+                    default:
+                        break;
+                }
 
-                CommandInterpreter.chooseTarget(activeFighter, getEnemyTeam());
+                //
 
             }
 
+            System.out.println("************************TEAM 1*************************");
+            team1.forEach(e -> printCharInfo(e));
+
+            System.out.println("************************TEAM 2*************************");
+            team2.forEach(e -> printCharInfo(e));
+
         }
+
+    }
+
+    public void printCharInfo(Character e) {
+        System.out.println("Class: " + e.getClassName());
+        System.out.println("Name: " + e.getName());
+        System.out.println("HP: " + e.getHP() + "/100");
+        System.out.println("Special Status: " + e.isSpecialActive() + " \"" + e.getSpecial().getName() + "\"");
     }
 
     public Team getEnemyTeam() {

@@ -6,6 +6,7 @@ import our.battlearena.specials.Special;
 public class Character {
 
     protected String name;
+    protected String className = "Character";
     protected int hp = 100;
     protected int attackMin;
     protected int attackMax;
@@ -27,6 +28,7 @@ public class Character {
 
     /**
      * Gets this Characters Name
+     * 
      * @return this Characters Name
      */
     public String getName() {
@@ -34,7 +36,17 @@ public class Character {
     }
 
     /**
+     * Gets this Characters Class Name
+     * 
+     * @return this Characters Class Name
+     */
+    public String getClassName() {
+        return className;
+    }
+
+    /**
      * Gets this Characters HP
+     * 
      * @return this Characters HP value
      */
     public int getHP() {
@@ -55,6 +67,7 @@ public class Character {
 
     /**
      * Is this Characters special ability currently active?
+     * 
      * @return is Special Ability active.
      */
     public boolean isSpecialActive() {
@@ -63,6 +76,7 @@ public class Character {
 
     /**
      * Returns the special ability class.
+     * 
      * @return Special
      */
     public Special getSpecial() {
@@ -98,6 +112,7 @@ public class Character {
 
     /**
      * Attacks an enemy
+     * 
      * @param enemy The Character to attack
      * @return true if the enemy died.
      */
@@ -108,9 +123,10 @@ public class Character {
     }
 
     /**
-     * Reduces a Characters HP (with absobtion handled)
-     * absorbtion takes damage before actual HP are lost!
-     * @param hp the ammount the hp/absorbtion has to be reduced by
+     * Reduces a Characters HP (with absobtion handled) absorbtion takes damage
+     * before actual HP are lost!
+     * 
+     * @param hp    the ammount the hp/absorbtion has to be reduced by
      * @param enemy the Character attacking
      * @return true if the Character died
      */
@@ -120,8 +136,9 @@ public class Character {
     }
 
     /**
-     * Reduces a Characters HP (with absobtion handled)
-     * absorbtion takes damage before actual HP are lost!
+     * Reduces a Characters HP (with absobtion handled) absorbtion takes damage
+     * before actual HP are lost!
+     * 
      * @param hp the ammount the hp/absorbtion has to be reduced by
      * @return true if the Character died
      */
@@ -140,10 +157,11 @@ public class Character {
     }
 
     /**
-     * Reduces a Characters HP (with absobtion handled)
-     * absorbtion takes damage before actual HP are lost!
-     * @param hp the ammount the hp/absorbtion has to be reduced by
-     * @param enemy The attacking enemy
+     * Reduces a Characters HP (with absobtion handled) absorbtion takes damage
+     * before actual HP are lost!
+     * 
+     * @param hp        the ammount the hp/absorbtion has to be reduced by
+     * @param enemy     The attacking enemy
      * @param penetrate true if the absorbtion value should be ignored
      * @return true if the Character died
      */
@@ -158,8 +176,9 @@ public class Character {
 
     /**
      * De/Activate this Characters special ability.
+     * 
      * @param special true to activate this Characters Special Ability
-     * @param enemy The enemy affected by the special ability (may be null)
+     * @param enemy   The enemy affected by the special ability (may be null)
      */
     public void setSpecial(boolean special, Character enemy) {
         if (enemy != null)

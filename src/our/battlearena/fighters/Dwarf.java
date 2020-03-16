@@ -6,5 +6,6 @@ public class Dwarf extends Character {
 
     public Dwarf(String name) {
         super(name, 15, 25, new DwarfHead());
+        className = "Dwarf";
     }
 }

@@ -5,10 +5,8 @@ import our.battlearena.fighters.Character;
 
 public class DragonFlight extends Special {
 
-    private String name = "DragonFlight";
-
     public DragonFlight() {
-
+        name = "DragonFlight";
     }
 
     int decrease = 0;
@@ -16,7 +14,8 @@ public class DragonFlight extends Special {
     @Override
     public void onSpecialActivate(Character self, Character enemy) {
         decrease = RNG.getRandom(5, 10);
-        // self.setAttackRange(self.getAttackMin() - random, self.getAttackMax() + random);
+        // self.setAttackRange(self.getAttackMin() - random, self.getAttackMax() +
+        // random);
         self.setAbsorbtion(10);
     }
 

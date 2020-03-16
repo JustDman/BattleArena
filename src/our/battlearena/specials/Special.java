@@ -4,7 +4,7 @@ import our.battlearena.fighters.Character;
 
 public class Special {
 
-    private String name = "Special";
+    protected String name = "Special";
     private boolean isActive = false;
 
     private boolean requireTarget = false;
@@ -30,6 +30,7 @@ public class Special {
 
     /**
      * If this special ability is active
+     * 
      * @return special is active
      */
     public boolean isActive() {
@@ -42,9 +43,10 @@ public class Special {
 
     /**
      * Activate
+     * 
      * @param active should it be activated?
-     * @param self The Character this ability belongs to
-     * @param enemy The Characters enemy
+     * @param self   The Character this ability belongs to
+     * @param enemy  The Characters enemy
      */
     public void setActive(boolean active, Character self, Character enemy) {
         isActive = active;
@@ -56,10 +58,11 @@ public class Special {
     }
 
     /**
-     * Modifies outgoin Attack value self attacks -> victim
-     * Gets called everytime an attack is about to happen
-     * @param value The attacks current damage value
-     * @param self The Character attacking
+     * Modifies outgoin Attack value self attacks -> victim Gets called everytime an
+     * attack is about to happen
+     * 
+     * @param value  The attacks current damage value
+     * @param self   The Character attacking
      * @param victim The character under attack
      * @return The new attacks damage value
      */
@@ -68,10 +71,11 @@ public class Special {
     }
 
     /**
-     * Modifies incoming Attack value enemy attacks -> self
-     * Gets called everytime an attack is about to happen
+     * Modifies incoming Attack value enemy attacks -> self Gets called everytime an
+     * attack is about to happen
+     * 
      * @param value The attacks current damage value
-     * @param self The character under attack
+     * @param self  The character under attack
      * @param enemy The character attacking
      * @return The new attacks damage value
      */
@@ -81,6 +85,7 @@ public class Special {
 
     /**
      * Gets the name of this special ability
+     * 
      * @return the name of this special ability
      */
     public String getName() {
