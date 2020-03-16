@@ -193,4 +193,12 @@ public class Character {
     public void toggleSpecial(Character enemy) {
         setSpecial(!special, enemy);
     }
+
+    public Character getLastEnemyAttacked() {
+        return lastEnemyAttacked;
+    }
+
+    public Character getLastEnemyHitBy() {
+        return lastEnemyHitBy;
+    }
 }

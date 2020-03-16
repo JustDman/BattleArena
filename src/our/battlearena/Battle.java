@@ -70,6 +70,11 @@ public class Battle {
             team2.forEach(e -> printCharInfo(e));
 
         }
+        if (team1.isAtLeastOneAlive())
+            System.out.println("TEAM 1 WON!");
+        else
+            System.out.println("TEAM 2 WON!");
+        return;
 
     }
 
