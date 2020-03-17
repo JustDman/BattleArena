@@ -36,7 +36,18 @@ public class Battle {
 
             Iterator<Character> it = activeTeam.getMemberIterator();
             while (it.hasNext()) {
-                Character activeFighter = it.next();
+                Character activeFighter = null;
+                while((activeFighter == null || activeFighter.isDead()) && it.hasNext()) {
+                    activeFighter = it.next();
+                }
+
+                if(activeFighter == null)
+                    break;
+
+                System.out.println("*******************************************************");
+                System.out.println("*** Current Fighter:");
+                printCharInfo(activeFighter);
+
                 int action = ACTION_NONE;
                 try {
                     action = CommandInterpreter.chooseAction(activeFighter);
@@ -82,8 +93,11 @@ public class Battle {
     public void printCharInfo(Character e) {
         System.out.println("Class: " + e.getClassName());
         System.out.println("Name: " + e.getName());
-        System.out.println("HP: " + e.getHP() + "/100");
-        System.out.println("Special Status: " + e.isSpecialActive() + " \"" + e.getSpecial().getName() + "\"");
+        if(e.isDead())
+            System.out.println("HP: DEAD 0/100");
+        else
+            System.out.println("HP: " + e.getHP() + "/100");
+        System.out.println("Special \"" + e.getSpecial().getName() + "\" Status: " + e.isSpecialActive());
     }
 
     public Team getEnemyTeam() {
