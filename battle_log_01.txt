@@ -1,0 +1,656 @@
+MENU
+1) CREATE FIGHTERS AND TEAMS
+2) START BATTLE
+3) EXIT
+
+1
+1v1 (1) or 2v2 (2)
+2
+************************TEAM 1*************************
+Choose a name!
+Kuerzel
+Choose a Class!
+1) Dragon
+2) Dwarf
+2
+Choose a name!
+Golad
+Choose a Class!
+1) Dragon
+2) Dwarf
+1
+************************TEAM 2*************************
+Choose a name!
+Pyethuen
+Choose a Class!
+1) Dragon
+2) Dwarf
+1
+Choose a name!
+Smullor
+Choose a Class!
+1) Dragon
+2) Dwarf
+2
+MENU
+1) CREATE FIGHTERS AND TEAMS
+2) START BATTLE
+3) EXIT
+
+2
+*******************************************************
+*** Current Fighter:
+Class: Dragon
+Name: Pyethuen
+HP: 100/100
+Special "DragonFlight" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: DragonFlight
+
+1
+************************ENEMY TEAM*************************
+0) Kuerzel, 100, Dwarf
+1) Golad, 100, Dragon
+Choose a Target!
+0
+Pyethuen deals 25 damage to Kuerzel
+*******************************************************
+*** Current Fighter:
+Class: Dwarf
+Name: Smullor
+HP: 100/100
+Special "Headbutt" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: Headbutt
+
+1
+************************ENEMY TEAM*************************
+0) Kuerzel, 75, Dwarf
+1) Golad, 100, Dragon
+Choose a Target!
+0
+Smullor deals 21 damage to Kuerzel
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: 54/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: 100/100
+Special "DragonFlight" Status: false
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: 100/100
+Special "DragonFlight" Status: false
+Class: Dwarf
+Name: Smullor
+HP: 100/100
+Special "Headbutt" Status: false
+*******************************************************
+*** Current Fighter:
+Class: Dwarf
+Name: Kuerzel
+HP: 54/100
+Special "Headbutt" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: Headbutt
+
+1
+************************ENEMY TEAM*************************
+0) Pyethuen, 100, Dragon
+1) Smullor, 100, Dwarf
+Choose a Target!
+1
+Kuerzel deals 19 damage to Smullor
+*******************************************************
+*** Current Fighter:
+Class: Dragon
+Name: Golad
+HP: 100/100
+Special "DragonFlight" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: DragonFlight
+
+1
+************************ENEMY TEAM*************************
+0) Pyethuen, 100, Dragon
+1) Smullor, 81, Dwarf
+Choose a Target!
+0
+Golad deals 24 damage to Pyethuen
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: 54/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: 100/100
+Special "DragonFlight" Status: false
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: 76/100
+Special "DragonFlight" Status: false
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+*******************************************************
+*** Current Fighter:
+Class: Dragon
+Name: Pyethuen
+HP: 76/100
+Special "DragonFlight" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: DragonFlight
+
+1
+************************ENEMY TEAM*************************
+0) Kuerzel, 54, Dwarf
+1) Golad, 100, Dragon
+Choose a Target!
+0
+Pyethuen deals 23 damage to Kuerzel
+*******************************************************
+*** Current Fighter:
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: Headbutt
+
+1
+************************ENEMY TEAM*************************
+0) Kuerzel, 31, Dwarf
+1) Golad, 100, Dragon
+Choose a Target!
+0
+Smullor deals 24 damage to Kuerzel
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: 7/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: 100/100
+Special "DragonFlight" Status: false
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: 76/100
+Special "DragonFlight" Status: false
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+*******************************************************
+*** Current Fighter:
+Class: Dwarf
+Name: Kuerzel
+HP: 7/100
+Special "Headbutt" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: Headbutt
+
+1
+************************ENEMY TEAM*************************
+0) Pyethuen, 76, Dragon
+1) Smullor, 81, Dwarf
+Choose a Target!
+0
+Kuerzel deals 22 damage to Pyethuen
+*******************************************************
+*** Current Fighter:
+Class: Dragon
+Name: Golad
+HP: 100/100
+Special "DragonFlight" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: DragonFlight
+
+1
+************************ENEMY TEAM*************************
+0) Pyethuen, 54, Dragon
+1) Smullor, 81, Dwarf
+Choose a Target!
+0
+Golad deals 20 damage to Pyethuen
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: 7/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: 100/100
+Special "DragonFlight" Status: false
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: 34/100
+Special "DragonFlight" Status: false
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+*******************************************************
+*** Current Fighter:
+Class: Dragon
+Name: Pyethuen
+HP: 34/100
+Special "DragonFlight" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: DragonFlight
+
+1
+************************ENEMY TEAM*************************
+0) Kuerzel, 7, Dwarf
+1) Golad, 100, Dragon
+Choose a Target!
+0
+Pyethuen deals 20 damage to Kuerzel
+*******************************************************
+*** Current Fighter:
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: Headbutt
+
+1
+************************ENEMY TEAM*************************
+0) Kuerzel, DEAD, Dwarf
+1) Golad, 100, Dragon
+Choose a Target!
+1
+Smullor deals 19 damage to Golad
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: DEAD 0/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: 81/100
+Special "DragonFlight" Status: false
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: 34/100
+Special "DragonFlight" Status: false
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+*******************************************************
+*** Current Fighter:
+Class: Dragon
+Name: Golad
+HP: 81/100
+Special "DragonFlight" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: DragonFlight
+
+1
+************************ENEMY TEAM*************************
+0) Pyethuen, 34, Dragon
+1) Smullor, 81, Dwarf
+Choose a Target!
+0
+Golad deals 23 damage to Pyethuen
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: DEAD 0/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: 81/100
+Special "DragonFlight" Status: false
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: 11/100
+Special "DragonFlight" Status: false
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+*******************************************************
+*** Current Fighter:
+Class: Dragon
+Name: Pyethuen
+HP: 11/100
+Special "DragonFlight" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: DragonFlight
+
+2
+*******************************************************
+*** Current Fighter:
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: Headbutt
+
+1
+************************ENEMY TEAM*************************
+0) Kuerzel, DEAD, Dwarf
+1) Golad, 81, Dragon
+Choose a Target!
+1
+Smullor deals 15 damage to Golad
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: DEAD 0/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: 66/100
+Special "DragonFlight" Status: false
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: 11/100
+Special "DragonFlight" Status: true
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+*******************************************************
+*** Current Fighter:
+Class: Dragon
+Name: Golad
+HP: 66/100
+Special "DragonFlight" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: DragonFlight
+
+1
+************************ENEMY TEAM*************************
+0) Pyethuen, 11, Dragon
+1) Smullor, 81, Dwarf
+Choose a Target!
+0
+Golad deals 24 damage to Pyethuen
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: DEAD 0/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: 66/100
+Special "DragonFlight" Status: false
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: DEAD 0/100
+Special "DragonFlight" Status: true
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+*******************************************************
+*** Current Fighter:
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: Headbutt
+
+1
+************************ENEMY TEAM*************************
+0) Kuerzel, DEAD, Dwarf
+1) Golad, 66, Dragon
+Choose a Target!
+1
+Smullor deals 19 damage to Golad
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: DEAD 0/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: 47/100
+Special "DragonFlight" Status: false
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: DEAD 0/100
+Special "DragonFlight" Status: true
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+*******************************************************
+*** Current Fighter:
+Class: Dragon
+Name: Golad
+HP: 47/100
+Special "DragonFlight" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: DragonFlight
+
+2
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: DEAD 0/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: 47/100
+Special "DragonFlight" Status: true
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: DEAD 0/100
+Special "DragonFlight" Status: true
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+*******************************************************
+*** Current Fighter:
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: Headbutt
+
+1
+************************ENEMY TEAM*************************
+0) Kuerzel, DEAD, Dwarf
+1) Golad, 47, Dragon
+Choose a Target!
+1
+Smullor deals 16 damage to Golad
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: DEAD 0/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: 41/100
+Special "DragonFlight" Status: true
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: DEAD 0/100
+Special "DragonFlight" Status: true
+Class: Dwarf
+Name: Smullor
+HP: 81/100
+Special "Headbutt" Status: false
+*******************************************************
+*** Current Fighter:
+Class: Dragon
+Name: Golad
+HP: 41/100
+Special "DragonFlight" Status: true
+************************SELECT ACTION*************************
+1) ATTACK
+2) DEACTIVATE SPECIAL ABILITY: DragonFlight
+
+1
+************************ENEMY TEAM*************************
+0) Pyethuen, DEAD, Dragon
+1) Smullor, 81, Dwarf
+Choose a Target!
+1
+Golad deals 18 damage to Smullor
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: DEAD 0/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: 41/100
+Special "DragonFlight" Status: true
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: DEAD 0/100
+Special "DragonFlight" Status: true
+Class: Dwarf
+Name: Smullor
+HP: 63/100
+Special "Headbutt" Status: false
+*******************************************************
+*** Current Fighter:
+Class: Dwarf
+Name: Smullor
+HP: 63/100
+Special "Headbutt" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: Headbutt
+
+1
+************************ENEMY TEAM*************************
+0) Kuerzel, DEAD, Dwarf
+1) Golad, 41, Dragon
+Choose a Target!
+1
+Smullor deals 24 damage to Golad
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: DEAD 0/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: 17/100
+Special "DragonFlight" Status: true
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: DEAD 0/100
+Special "DragonFlight" Status: true
+Class: Dwarf
+Name: Smullor
+HP: 63/100
+Special "Headbutt" Status: false
+*******************************************************
+*** Current Fighter:
+Class: Dragon
+Name: Golad
+HP: 17/100
+Special "DragonFlight" Status: true
+************************SELECT ACTION*************************
+1) ATTACK
+2) DEACTIVATE SPECIAL ABILITY: DragonFlight
+
+1
+************************ENEMY TEAM*************************
+0) Pyethuen, DEAD, Dragon
+1) Smullor, 63, Dwarf
+Choose a Target!
+1
+Golad deals 20 damage to Smullor
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: DEAD 0/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: 17/100
+Special "DragonFlight" Status: true
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: DEAD 0/100
+Special "DragonFlight" Status: true
+Class: Dwarf
+Name: Smullor
+HP: 43/100
+Special "Headbutt" Status: false
+*******************************************************
+*** Current Fighter:
+Class: Dwarf
+Name: Smullor
+HP: 43/100
+Special "Headbutt" Status: false
+************************SELECT ACTION*************************
+1) ATTACK
+2) ACTIVATE SPECIAL ABILITY: Headbutt
+
+1
+************************ENEMY TEAM*************************
+0) Kuerzel, DEAD, Dwarf
+1) Golad, 17, Dragon
+Choose a Target!
+1
+Smullor deals 25 damage to Golad
+************************TEAM 1*************************
+Class: Dwarf
+Name: Kuerzel
+HP: DEAD 0/100
+Special "Headbutt" Status: false
+Class: Dragon
+Name: Golad
+HP: DEAD 0/100
+Special "DragonFlight" Status: true
+************************TEAM 2*************************
+Class: Dragon
+Name: Pyethuen
+HP: DEAD 0/100
+Special "DragonFlight" Status: true
+Class: Dwarf
+Name: Smullor
+HP: 43/100
+Special "Headbutt" Status: false
+TEAM 2 WON!
