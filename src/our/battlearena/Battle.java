@@ -49,11 +49,9 @@ public class Battle {
                 printCharInfo(activeFighter);
 
                 int action = ACTION_NONE;
-                try {
-                    action = CommandInterpreter.chooseAction(activeFighter);
-                } catch (NotImplementedException e) {
-                    e.printStackTrace();
-                }
+                
+                action = CommandInterpreter.chooseAction(activeFighter);
+                
                 Character target = null;
                 if (action == ACTION_ATTACK || action == ACTION_SPECIAL_TARGET)
                     target = CommandInterpreter.chooseTarget(this, activeFighter);

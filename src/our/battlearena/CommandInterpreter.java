@@ -74,7 +74,7 @@ public class CommandInterpreter {
         System.out.println("ERROR!");
     }
 
-    public static int chooseAction(Character c) throws NotImplementedException {
+    public static int chooseAction(Character c) {
         boolean done = false;
         String s = "";
         System.out.println("************************SELECT ACTION*************************");
